@@ -47,7 +47,6 @@ jobs:
         NUGET_KEY: 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
         GITHUB_TOKEN: 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
         # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-        no_service_endpoint: true
-        NUGET_SOURCE: https://nuget.pkg.github.com/stohnii/index.json
+        NUGET_SOURCE: https://nuget.pkg.github.com/stohnii/index.json --no-service-endpoint
         # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
         #INCLUDE_SYMBOLS: # optional
