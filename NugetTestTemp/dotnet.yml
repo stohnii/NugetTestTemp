@@ -46,6 +46,6 @@ jobs:
         # API key to authenticate with NuGet server
         NUGET_KEY: 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
         # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-        NUGET_SOURCE: https://nuget.pkg.github.com/stohnii
+        NUGET_SOURCE: https://nuget.pkg.github.com/<owner>/index.json
         # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
         #INCLUDE_SYMBOLS: # optional
