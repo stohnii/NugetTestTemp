@@ -6,7 +6,7 @@ namespace NugetTestTemp
     {
         public string SayHello()
         {
-            return "Hello World!";
+            return "Hello World!1";
         }
     }
 }
