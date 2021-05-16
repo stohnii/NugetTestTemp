@@ -47,6 +47,6 @@ jobs:
         # NUGET_KEY: oy2p4w4h3osidav3cqkqrxo4n3f6djmufidu33ewnyjxwq
         #GITHUB_TOKEN: "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"
         # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-        NUGET_SOURCE: https://pkgs.dev.azure.com/NewsMssTest/dstohniinugets/_packaging/dstnugetsfeed/nuget/v3/index.json
+        NUGET_SOURCE: https://dstohniinugets/v3/index.json
         # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
         #INCLUDE_SYMBOLS: # optional
