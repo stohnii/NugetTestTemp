@@ -30,9 +30,9 @@ jobs:
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
         # Filepath of the project to be packaged, relative to root of repository
-        PROJECT_FILE_PATH: "NugetTestTemp/NugetTestTemp.csproj"
+        PROJECT_FILE_PATH: NugetTestTemp/NugetTestTemp.csproj
         # NuGet package id, used for version detection & defaults to project name
-        PACKAGE_NAME: "NugetTestTemp"
+        PACKAGE_NAME: NugetTestTemp
         # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
         #VERSION_FILE_PATH: # optional
         # Regex pattern to extract version info in a capturing group
@@ -44,8 +44,8 @@ jobs:
         # Format of the git tag, [*] gets replaced with actual version
         #TAG_FORMAT: # optional, default is v*
         # API key to authenticate with NuGet server
-        #NUGET_KEY: # optional
+        NUGET_KEY: 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
         # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-        NUGET_SOURCE: "https://nuget.pkg.github.com/stohnii/"
+        NUGET_SOURCE: https://nuget.pkg.github.com/stohnii/
         # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
         #INCLUDE_SYMBOLS: # optional
