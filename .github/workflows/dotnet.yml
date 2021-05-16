@@ -44,9 +44,9 @@ jobs:
         # Format of the git tag, [*] gets replaced with actual version
         #TAG_FORMAT: # optional, default is v*
         # API key to authenticate with NuGet server
-        NUGET_KEY: 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
+        NUGET_KEY: oy2p4w4h3osidav3cqkqrxo4n3f6djmufidu33ewnyjxwq
         #GITHUB_TOKEN: "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"
         # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-        NUGET_SOURCE: https://nuget.pkg.github.com/stohnii
+        # NUGET_SOURCE: https://nuget.pkg.github.com/stohnii
         # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
         #INCLUDE_SYMBOLS: # optional
